@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f39c12;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    color: white;
+}
+
+main h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+div#contenedor {
+    width: 500px;
+    min-height: 430px;
+    margin: 30px auto;
+    padding: 40px 20px 50px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+
+div#contenedor h3 {
+    margin-bottom: 5px;
+    
+}
+
+
+div#contenedor textarea {
+    width: calc(100% - 10px);
+    height: 100px;
+    padding: 5px;
+    border-radius: 2px;
+    border: none;
+    display: block;
+}
+
+div#contenedor button {
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: white;
+    float: right;
+    font-size: 1.03em;
+    border: none;
+    border-radius: 5px;
+    background-color: #27AE5F;
+    cursor: pointer;
+    transition: .6s background-color;
+}
+
+div#contenedor button:hover {
+    background-color: #2ecc71;
+}
+
+div#contenedor button:focus {
+    outline: none;
+}
+
+div#contenedor button:active {
+    box-shadow: 0px 0px 5px black;
+}
+
+div#contenedorSalida {
+    clear: both;
+    /* border-top: 1px solid rgba(0,0,0,0.3); */
+}
+
+div#contenedor div#salida {
+    padding: 5px;
+    width: calc(100% - 10px);
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+    min-height: 100px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Atbash</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <main>
+        <h1>Cifrado Atbash</h1>
+        <div id="contenedor">
+            <h3>Texto plano:</h3>
+
+            <textarea id="entrada"></textarea>
+
+            <button type="button" id="cifrar">Cifrar o Descifrar</button>
+            <button onclick="limpiar()" style=" background-color:red; width:80px; ">Limpiar</button>
+
+            <div id="contenedorSalida">
+                <br>
+                <h3>Salida cifrada:</h3>
+
+                <div id="salida" class="enlace"> </div>
+
+            
+            </div>
+
+        </div>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
